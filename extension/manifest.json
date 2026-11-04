@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Chord",
+  "version": "1.0",
+  "description": "Keyboard shortcuts for Safari: ⇧⌘P toggles Picture in Picture, ⇧⌘C copies the tab URL.",
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["activeTab", "nativeMessaging"],
+  "action": { "default_title": "Chord" },
+  "commands": {
+    "toggle-pip": {
+      "suggested_key": { "default": "Command+Shift+P", "mac": "Command+Shift+P" },
+      "description": "Keyboard shortcuts for Safari: ⇧⌘P toggles Picture in Picture, ⇧⌘C copies the tab URL."
+    },
+    "copy-url": {
+      "suggested_key": { "default": "Command+Shift+C", "mac": "Command+Shift+C" },
+      "description": "Keyboard shortcuts for Safari: ⇧⌘P toggles Picture in Picture, ⇧⌘C copies the tab URL."
+    }
+  }
+}
