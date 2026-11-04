@@ -34,8 +34,8 @@ To start: open Chord, then turn it on in Safari Settings > Extensions and allow 
 safari,extension,picture in picture,pip,shortcut,hotkey,copy url,copy link,video,keyboard
 
 ## Support URL / Privacy Policy URL
-- Support URL: needs a public page (see README note below)
-- Privacy Policy URL: needs a public URL hosting docs/privacy-policy.md
+- Support URL: https://github.com/raggesilver/chord/issues
+- Privacy Policy URL: https://github.com/raggesilver/chord/blob/main/docs/privacy-policy.md
 
 ## App Review notes
 Chord is a Safari Web Extension with a small companion app.
@@ -47,8 +47,8 @@ Why all-websites access: the extension must find a video element on any site the
 The extension asks the companion app, through a native message, to write the address to the clipboard and to show the toast. If the system shortcut is already taken, the user can remap it in Safari Settings > Extensions.
 
 ## Screenshots (macOS, one of these sizes)
-1280x800, 1440x900, 2560x1600 or 2880x1800. Suggested set:
-1. The app window with the toast setting.
-2. A video page with Picture in Picture active.
-3. The "Address copied" toast over a page.
-4. Safari Settings > Extensions showing Chord and its shortcuts.
+1280x800, 1440x900, 2560x1600 or 2880x1800. The submitted set (2880x1800) is in `docs/screenshots/`:
+1. `01-picture-in-picture.png`: YouTube with Picture in Picture active.
+2. `02-copy-address.png`: the "Address copied" toast over a page.
+3. `03-light-and-dark.png`: the app window in light and dark.
+4. `04-shortcuts.png`: the two shortcuts and the app window.
