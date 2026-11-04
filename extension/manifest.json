@@ -3,25 +3,57 @@
   "name": "Chord",
   "version": "1.0",
   "description": "Keyboard shortcuts for Safari: ⇧⌘P toggles Picture in Picture, ⇧⌘C copies the tab URL.",
-  "background": { "scripts": ["background.js"] },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
       "all_frames": true,
       "run_at": "document_idle"
     }
   ],
-  "permissions": ["activeTab", "nativeMessaging"],
-  "action": { "default_title": "Chord" },
+  "permissions": [
+    "activeTab",
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_title": "Chord",
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "96": "images/icon-96.png"
+    }
+  },
   "commands": {
     "toggle-pip": {
-      "suggested_key": { "default": "Command+Shift+P", "mac": "Command+Shift+P" },
+      "suggested_key": {
+        "default": "Command+Shift+P",
+        "mac": "Command+Shift+P"
+      },
       "description": "Keyboard shortcuts for Safari: ⇧⌘P toggles Picture in Picture, ⇧⌘C copies the tab URL."
     },
     "copy-url": {
-      "suggested_key": { "default": "Command+Shift+C", "mac": "Command+Shift+C" },
+      "suggested_key": {
+        "default": "Command+Shift+C",
+        "mac": "Command+Shift+C"
+      },
       "description": "Keyboard shortcuts for Safari: ⇧⌘P toggles Picture in Picture, ⇧⌘C copies the tab URL."
     }
+  },
+  "icons": {
+    "48": "images/icon-48.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png",
+    "256": "images/icon-256.png",
+    "512": "images/icon-512.png"
   }
 }

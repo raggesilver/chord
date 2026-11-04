@@ -20,6 +20,8 @@
 		3ADBDCCA309B5D850000152D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCC7309B5D850000152D /* background.js */; };
 		3ADBDCCB309B5D850000152D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCC8309B5D850000152D /* manifest.json */; };
 		3ADBDCCC309B5D850000152D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCC9309B5D850000152D /* content.js */; };
+		3ADBDD01309B5D850000152D /* Chord.icon in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDD00309B5D850000152D /* Chord.icon */; };
+		3ADBDD03309B5D850000152D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDD02309B5D850000152D /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		3ADBDCC7309B5D850000152D /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../extension/background.js; sourceTree = "<group>"; };
 		3ADBDCC8309B5D850000152D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../extension/manifest.json; sourceTree = "<group>"; };
 		3ADBDCC9309B5D850000152D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../../extension/content.js; sourceTree = "<group>"; };
+		3ADBDD00309B5D850000152D /* Chord.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = Chord.icon; sourceTree = "<group>"; };
+		3ADBDD02309B5D850000152D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../extension/images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				3ADBDCA9309B5D750000152D /* ViewController.swift */,
 				3ADBDCAB309B5D750000152D /* Main.storyboard */,
 				3ADBDCAE309B5D760000152D /* Assets.xcassets */,
+				3ADBDD00309B5D850000152D /* Chord.icon */,
 				3ADBDCB0309B5D760000152D /* Info.plist */,
 				3ADBDC9F309B5D750000152D /* Resources */,
 			);
@@ -141,6 +146,7 @@
 				3ADBDCC7309B5D850000152D /* background.js */,
 				3ADBDCC8309B5D850000152D /* manifest.json */,
 				3ADBDCC9309B5D850000152D /* content.js */,
+				3ADBDD02309B5D850000152D /* images */,
 			);
 			name = Resources;
 			path = "Chord Extension";
@@ -237,6 +243,7 @@
 				3ADBDCA8309B5D750000152D /* Script.js in Resources */,
 				3ADBDCA2309B5D750000152D /* Main.html in Resources */,
 				3ADBDCAF309B5D760000152D /* Assets.xcassets in Resources */,
+				3ADBDD01309B5D850000152D /* Chord.icon in Resources */,
 				3ADBDCA6309B5D750000152D /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +255,7 @@
 				3ADBDCCC309B5D850000152D /* content.js in Resources */,
 				3ADBDCCB309B5D850000152D /* manifest.json in Resources */,
 				3ADBDCCA309B5D850000152D /* background.js in Resources */,
+				3ADBDD03309B5D850000152D /* images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +506,7 @@
 		3ADBDCC4309B5D760000152D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Chord;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -540,7 +548,7 @@
 		3ADBDCC5309B5D760000152D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Chord;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
