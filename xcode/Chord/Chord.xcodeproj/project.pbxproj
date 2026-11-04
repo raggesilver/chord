@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3ADBDC9E309B5D750000152D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDC9D309B5D750000152D /* AppDelegate.swift */; };
-		3ADBDCA2309B5D750000152D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCA0309B5D750000152D /* Main.html */; };
-		3ADBDCA4309B5D750000152D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCA3309B5D750000152D /* Icon.png */; };
-		3ADBDCA6309B5D750000152D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCA5309B5D750000152D /* Style.css */; };
-		3ADBDCA8309B5D750000152D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCA7309B5D750000152D /* Script.js */; };
 		3ADBDCAA309B5D750000152D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBDCA9309B5D750000152D /* ViewController.swift */; };
 		3ADBDCAD309B5D750000152D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCAB309B5D750000152D /* Main.storyboard */; };
 		3ADBDCAF309B5D760000152D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBDCAE309B5D760000152D /* Assets.xcassets */; };
@@ -51,10 +47,6 @@
 /* Begin PBXFileReference section */
 		3ADBDC9A309B5D750000152D /* Chord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADBDC9D309B5D750000152D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ADBDCA1309B5D750000152D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
-		3ADBDCA3309B5D750000152D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		3ADBDCA5309B5D750000152D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		3ADBDCA7309B5D750000152D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		3ADBDCA9309B5D750000152D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3ADBDCAC309B5D750000152D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ADBDCAE309B5D760000152D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,20 +106,8 @@
 				3ADBDCAE309B5D760000152D /* Assets.xcassets */,
 				3ADBDD00309B5D850000152D /* Chord.icon */,
 				3ADBDCB0309B5D760000152D /* Info.plist */,
-				3ADBDC9F309B5D750000152D /* Resources */,
 			);
 			path = Chord;
-			sourceTree = "<group>";
-		};
-		3ADBDC9F309B5D750000152D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3ADBDCA0309B5D750000152D /* Main.html */,
-				3ADBDCA3309B5D750000152D /* Icon.png */,
-				3ADBDCA5309B5D750000152D /* Style.css */,
-				3ADBDCA7309B5D750000152D /* Script.js */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		3ADBDCB9309B5D760000152D /* Chord Extension */ = {
@@ -238,13 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ADBDCA4309B5D750000152D /* Icon.png in Resources */,
 				3ADBDCAD309B5D750000152D /* Main.storyboard in Resources */,
-				3ADBDCA8309B5D750000152D /* Script.js in Resources */,
-				3ADBDCA2309B5D750000152D /* Main.html in Resources */,
 				3ADBDCAF309B5D760000152D /* Assets.xcassets in Resources */,
 				3ADBDD01309B5D850000152D /* Chord.icon in Resources */,
-				3ADBDCA6309B5D750000152D /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,14 +266,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3ADBDCA0309B5D750000152D /* Main.html */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3ADBDCA1309B5D750000152D /* Base */,
-			);
-			name = Main.html;
-			sourceTree = "<group>";
-		};
 		3ADBDCAB309B5D750000152D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +409,6 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Chord Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Chord Extension";
@@ -476,7 +443,6 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Chord Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Chord Extension";
@@ -514,12 +480,12 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chord/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Chord;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Paulo Queiroz. All rights reserved.";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -556,12 +522,12 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chord/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Chord;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Paulo Queiroz. All rights reserved.";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
