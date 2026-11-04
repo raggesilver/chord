@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-32 -32 64 64">
+  <g fill="none" stroke="#000" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-12 -12H12V12H-12Z"/>
+    <path d="M-12 -12V-20A8 8 0 1 0 -20 -12H-12"/>
+    <path d="M12 -12V-20A8 8 0 1 1 20 -12H12"/>
+    <path d="M-12 12V20A8 8 0 1 1 -20 12H-12"/>
+    <path d="M12 12V20A8 8 0 1 0 20 12H12"/>
+  </g>
+</svg>
