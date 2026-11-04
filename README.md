@@ -62,6 +62,19 @@ Toolbar badge symbols:
 | ! | Error |
 | × | No content script on this page |
 
+## Tested sites
+
+Picture in Picture (⇧⌘P) has been tested and works on:
+
+- YouTube
+- Crunchyroll
+- Prime Video
+- HBO Max
+- Disney+
+- Paramount+
+
+Other sites with a standard `<video>` element will likely work too. Vimeo hasn't been tested.
+
 ## Known limitations
 
 - Pages with no `<video>`, videos with `disablePictureInPicture`, DRM or custom players that hide the element, and videos in cross-origin iframes where the content script isn't granted show the `–` badge.
